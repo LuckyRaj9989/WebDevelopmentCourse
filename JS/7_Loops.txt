@@ -1,0 +1,63 @@
+Loops:
+    1) While, 2) do While, 3) for loop, 4) for_in(Objects), 5) forEach(Array), 6) map, 7) filter
+
+1) while:
+    var x=1;
+    while(x<=10){
+        //code block
+        x++;    
+    }
+2) do_while:
+    var x=1;
+    do{
+        //code block
+        x++;
+    } while(x<=10)
+3) for loop:
+    Syntax:
+        for(var x=0; x<5; x++){
+            //code block.
+        }
+        //continue statement
+        for(var x=0; x<5; x++){
+            if(x==3){
+                console.log("Hey");
+                continue; ---> If it is used here, it will go top and continue the loop with new value.
+            }
+            console.log("Raj");
+        }
+        //break statement
+        for(var x=0; x<5; x++){
+            if(x==4){
+                console.log("Hey");
+                break; ---> If it is used here, it will stop the loop and will come out of the loop transaction.
+            }
+            console.log("Raj");
+        }
+4)  forEach:
+    var x = [10,20,30,40,50];
+        x.forEach((ele,ind) =>{
+            document.write(ind+" : "+ele+" <br/>");
+        });
+    ---> iterates each element and print the value along with index.
+5)  for_In loop:
+    var abj = {
+            firstName : "Rajesh",
+            designation : "SSE",
+            company : "Carelon" 
+            }
+    for(var key in abj){
+        console.log(key+": "+abj[key]+"<br>");
+    }
+6)  map: ---> creates a new array while working with arrays.
+    var array1 = [10,20,30];
+    var newArr1 = array1.map(ele =>{
+                    return ele/5;
+                    }); //[2,4,6]
+7)  filter: ---> creates a new array while working with arrays.
+    var array1 = [10,20,30];
+    var newArr1 = array1.filter(ele =>{
+                    if(ele >= 15){
+                        return ele; 
+                        }
+                    }); // [20,30];

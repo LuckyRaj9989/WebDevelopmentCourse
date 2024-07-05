@@ -1,0 +1,13 @@
+window methods:
+1) alert, 2) prompt, 3) confirm
+
+var x = "This is an alert message";
+alert(x);
+
+var prompt_data = "Enter your marks: ";
+var result_data = prompt(prompt_data); // returns the value which is entered by user.
+console.log(result_data);
+
+var emp_data = "Are you an employee of Carelon?";
+var emp_result = prompt(emp_data); // Returns the value either true/false
+console.log(emp_result);

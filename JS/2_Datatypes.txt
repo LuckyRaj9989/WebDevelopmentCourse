@@ -1,0 +1,15 @@
+Datatypes:
+    1) String, 2) Number, 3) Boolean, 4) Array, 5) Object, 6) Null, 7) undefined
+
+var strng1 = "String" ---> String
+var num1 = 2546 ---> Number
+var isBoolean = true/false ---> Boolean
+var data1 = [1,2,3,4]; ---> Array
+var data2 = {Name:"John",Age:28} ---> Object
+var isNull = null; ---> Null
+var data3; ---> undefined. 
+
+
+To check dataype of value:
+    var textData = Boolean;
+    console.log(typeof textData);

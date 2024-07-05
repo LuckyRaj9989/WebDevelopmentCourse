@@ -1,0 +1,22 @@
+body{
+    background-image: url("Nature_Image2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    background: linear-gradient(to right,aqua,brown);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+p{
+    background: linear-gradient(to left,red,white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+@media screen and (min-width: 560px) {
+    body{
+        background-image: url("Nature_Images3.jpg");
+    }
+}

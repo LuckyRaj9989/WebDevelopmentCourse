@@ -1,0 +1,13 @@
+p{
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: goldenrod;
+    border-width: 5px;
+}
+h1{
+    border-bottom-style: dotted;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(20, 233, 73);
+    padding: 5px;
+}

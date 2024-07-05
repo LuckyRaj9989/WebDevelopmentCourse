@@ -1,0 +1,3 @@
+Methods:
+    toDateString,getDate,getDay,getFullYear,getMonth,getHours,getMinutes,getSeconds
+    setDate,setMonth,setDay,setFullYear,setHours,setMinutes,setSeconds

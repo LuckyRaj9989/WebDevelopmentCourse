@@ -1,0 +1,26 @@
+// Variables are three types:
+/*
+    var, let and const. 
+ */
+/* 
+ var is variable can assign any value, It can be over written with new value,
+ It can re-intiate to the value again with var.
+*/
+var value = 'My String';
+value = 54;
+var value = true;
+/* 
+ let is variable can assign to any value, but it cannot re-intiate again.
+*/
+let data = {firstName: "Rajesh",lastName: "Kumar"};
+let data = [1,2,3]; // Throws an error because of cannot re-intiate to the same variablename.
+data = null;
+
+/*
+ const variable can assigne to single value and it cannot re-intiate again to same variable name.
+*/
+
+const type1 = "Text included";
+const type1 = true; // Error
+type1 = undefined; //Error
+

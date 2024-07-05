@@ -1,0 +1,19 @@
+String Methods:
+1) length ---> to count the length of String
+2) toLowerCase --->
+3) toUpperCase --->
+4) includes ---> Validates whether the string included or not?
+5) startsWith --->
+6) endsWith --->
+7) indexOf --->
+8) lastIndexOf --->
+9) replace(arg1,arg2) --->
+10) trim()
+11) concat("")
+12) split()
+13) repeat
+14) slice()
+15) substr()
+16) substring()
+17) toString()
+    

@@ -1,0 +1,28 @@
+Objects is a key-value type of structure.
+Example:
+    var a = {
+            firstName : "Rajesh",
+            designation : "SSE",
+            company : "Carelon" 
+            }
+// To get the value of property: 
+    1) a.firstName ---> Returns the value as "Rajesh".
+    2) a["firstName"] ---> Returns the value as "Rajesh".
+// Object would be combination of all datatype in curly braced brackets.
+    var data = {
+            firstName : "Rajesh",
+            designation : "SSE",
+            company : "Carelon",
+            favMovies : ["Dhoom","KGF","Jailer"],
+            curSalary : function(){
+                            return 20000;
+                        },
+            companyDetails : {
+                            headOffice : "Banglore",
+                            currLocation : "Hyderabad"
+                            }
+            }
+// Creating a Object:
+    var leData = new Object();
+    leData.age = 25;
+    leData.phone = "9989884159";

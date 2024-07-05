@@ -1,0 +1,38 @@
+1) let and const:
+    both datatypes are local scoped functions. 
+    let --> we can reassign the value, but not re-intiate
+    const ---> we cannot reintiate nor reassign 
+2) Template literals:
+    backTik(``) with syntax ---> 
+    var firstName = "Rajesh Kumar";
+    var fullName = `${firstName} Reddy MVT`;
+3) Arrow Functions:
+    let hello = () => {
+        console.log('Arrow Function');
+    }
+    let hello = (params1,params2) => {
+        return `${params1} ${params2}`;
+    }
+    let greet = greetings => `hello Raj ${greetings}`;
+    greet('Welcome');
+    hello();
+    hello('Raj','Lucky');
+4) Object Literals:
+    let name = "Rajesh";
+    let course = "Salesforce";
+    let obj = {
+        name : name,
+        course : course
+    } ------> This we can write as below.
+    let obj = {
+        name,
+        course
+    }
+    ====================
+    let n = "name";
+    let course = "Salesforce";
+    let obj = {
+        [n] : "Rajesh",
+        course
+    }
+    

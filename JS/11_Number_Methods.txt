@@ -1,0 +1,10 @@
+Methods of Number:
+1) number() --->
+    var x = "99";
+    var y = Number(x); ---> Returns the number type value as 99
+2) parseInt() ---> Works same as number() but only for integers not decimals. 
+3) parseFloat() ---> Works same as number() but only for decimals not integers. 
+4) isFinite() ---> The valus is infinity or not, returns in true/false
+5) isInteger() ---> the value is integer or not , returns in true/false
+6) toFixed
+7) toPrecision

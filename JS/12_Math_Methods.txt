@@ -1,0 +1,28 @@
+Methods:
+1) floor, ceil, round, trunc,sqrt, cbrt,pow,PI, random
+
+floor:
+    1) console.log(Math.floor(5.25))---> If value having +ve, then it will consider main value like 5.
+    2) console.log(Math.floor(-5.25)) ---> If value is -ve, then it will decrese one value as -6
+ceil:
+    1) console.log(Math.ceil(5.25))---> If value having +ve, then it will increase one main value like 6.
+    2) console.log(Math.ceil(-5.25)) ---> If value is -ve, then it will give one value as -5
+round:
+    1) console.log(Math.round(5.75))---> If value having more than 0.5, then it will increase one main value like 6.
+    2) console.log(Math.round(5.25)) ---> If value is less than 0.5, then it will give one value as 5
+    3) console.log(Math.round(-5.75))---> If value having more than 0.5, then it will increase one main value like -6.
+    4) console.log(Math.round(-5.25)) ---> If value is less than 0.5, then it will give one value as -5
+trunc:
+    1) console.log(Math.trunc(5.75))--->  it will reusilt the main value whatevr it is like 5.
+    2) console.log(Math.trunc(5.25)) ---> it will reusilt the main value whatevr it is like 5.
+    3) console.log(Math.trunc(-5.75))---> it will reusilt the main value whatevr it is like -5.
+    4) console.log(Math.trunc(-5.25)) ---> it will reusilt the main value whatevr it is like -5.
+random:
+    1) consol.log(Math.random()) ---> It result any value from 0 to 1 instantly.
+sqrt:
+    It returns the square root value of ask.
+cbrt:
+    It returns the cubic root value of ask.
+pow:
+    console.log(Math.pow(2,3))
+

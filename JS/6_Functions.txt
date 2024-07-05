@@ -1,0 +1,25 @@
+1) function:
+    Syntax: 
+    function functionName(){
+        //code block
+    }
+    //to call function:
+    functionName();
+
+2) function with params:
+    Syntax: 
+    function functionName(num1,num2){
+        //code block
+    }
+    //to call function:
+    functionName(10,20);
+
+3) function with return:
+    Syntax: 
+    function functionName(num1,num2){
+        //code block
+        retun num1+num2; // Return statement if user expects client side.
+    }
+    //to call function with return value
+    var output = functionName(10,25);
+    console.log(output);
